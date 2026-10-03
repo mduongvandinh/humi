@@ -1,0 +1,61 @@
+body {
+  overflow-y: auto;
+}
+#sheet {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 28px 20px 80px;
+}
+.sheet-head h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+.sheet-head p {
+  max-width: 760px;
+  color: var(--muted);
+  margin: 6px 0 10px;
+}
+.sheet-head a {
+  color: var(--accent);
+  font-weight: 800;
+}
+.sheet-section {
+  margin-top: 36px;
+}
+.sheet-section h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+.sheet-section .intro {
+  margin: 4px 0 14px;
+  color: var(--muted);
+  max-width: 760px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+}
+figure {
+  margin: 0;
+}
+.cell .humi-stage {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  display: block;
+}
+figcaption {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+figcaption strong {
+  display: block;
+  font-size: 13px;
+}
+figcaption span {
+  color: var(--muted);
+}
